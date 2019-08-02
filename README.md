@@ -16,7 +16,7 @@ For the purpose of easy debugging, the app logs to the console all API calls and
 
 ## Configuration
 
-The only thing you'll must specify is the environment variable that has a connection string to point to the MongoDB database.
+The only thing you must specify is the environment variable that has a connection string to point to the MongoDB database.
 
 ### Environment variables
 1. `MONGODB_CONNECTION_STRING` **(required)**  – MongoDB connection string, e.g. `mongodb://<user_name>:<password>@localhost:27017/<db_name>?authSource=<auth_db_name>`
